@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('geogram_PSM.html',''); initResizable()
 <div class="title">Geogram Pluggable Software Modules </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md30"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md8"></a>
 Pluggable Software Modules</h1>
 <p>Some users of Geogram may be interested only in a subset of Geogram functionalities. Following the principle that Geogram should be as easy to use/compile as possible, some subsets of functionalities are alternatively available as a standalone pair of (header,implementation) files, automatically extracted/assembled from Geogram sourcetree. This makes the functionality usable with 0 dependency: client code that uses a PSM just need to insert the header and the implementation file into the project (rather than linking with the entire Geogram library).</p>
 <p>Geogram PSMs are available in the <a href="https://gforge.inria.fr/frs/?group_id=5833">Geogram distribution</a></p>
@@ -95,28 +95,28 @@ Pluggable Software Modules</h1>
 </div><!-- fragment --><p> on a Linux box or under Cygwin (the latter is untested).</p>
 <p>Most PSMs come with an example file. To compile, use: </p><div class="fragment"><div class="line">g++ MultiPrecision_example.cpp MultiPrecision_psm.cpp -o MultiPrecision_example</div>
 </div><!-- fragment --><p> (where MultiPrecision can be replaced with the PSM name)</p>
-<h1><a class="anchor" id="autotoc_md31"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 List of PSMs</h1>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 OpenNL</h2>
 <p>(src/lib/geogram/NL/OpenNL.psm): solvers for sparse linear systems / least squares regression</p>
 <p>To compile, it needs the math library: </p><div class="fragment"><div class="line">gcc OpenNL_example.c OpenNL_psm.c -o OpenNL_example -lm </div>
 </div><!-- fragment --><p>To enable support for SuperLU dynamic linking (Linux only), use: </p><div class="fragment"><div class="line">gcc -DGEO_DYNAMIC_LIBS OpenNL_example.c OpenNL_psm.c -o OpenNL_example -lm -ldl</div>
 </div><!-- fragment --><p>To enable OpenMP parallel mode, use: </p><div class="fragment"><div class="line">gcc -fopenmp OpenNL_example.c OpenNL_psm.c -o OpenNL_example -lm </div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md33"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
 MultiPrecision</h2>
 <p>(src/lib/geogram/numerics/MultiPrecision.psm): an easy-to-use number type for computing the exact sign of a polynom</p>
 <p>To compile, use: </p><div class="fragment"><div class="line">g++ MultiPrecision_example.cpp MultiPrecision_psm.cpp -o MultiPrecision_example</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md34"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
 Predicates</h2>
 <p>(src/lib/geogram/numerics/Predicates.psm): exact geometric predicates with symbolic perturbation (SOS)</p>
 <p>To compile, use: </p><div class="fragment"><div class="line">g++ -c Predicates_psm.cpp </div>
 </div><!-- fragment --><p> (no example program for now)</p>
-<h2><a class="anchor" id="autotoc_md35"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Delaunay</h2>
 <p>(src/lib/geogram/delaunay/Delaunay.psm): Sequential and parallel <a class="el" href="classGEO_1_1Delaunay.html" title="Abstract interface for Delaunay triangulation in Nd.">Delaunay</a> triangulation and power diagrams in 2D and 3D.</p>
 <p>To compile, use: </p><div class="fragment"><div class="line">gcc -O3 -fopenmp -frounding-math -ffp-contract=off Delaunay_example.cpp Delaunay_psm.cpp -o Delaunay_example -lm </div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md36"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md14"></a>
 Syntax of a PSM file</h1>
 <p>A PSM file specifies a list of header files and a list of source files that will be assembled into a single header file (respectively a single source file). All file paths are relative to where the PSM file is located:</p>
 <div class="fragment"><div class="line">HEADERS=<span class="stringliteral">&quot;header_1.h header_2.h ... header_n.h&quot;</span></div>
@@ -133,7 +133,7 @@ Syntax of a PSM file</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 8 2022 05:42:10 for Geogram by
+    <li class="footer">Generated on Tue Mar 8 2022 06:51:27 for Geogram by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

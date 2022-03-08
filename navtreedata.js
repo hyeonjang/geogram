@@ -23,55 +23,24 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Geogram", "index.html", [
-    [ "Instructions for compiling Geogram", "geogram_compiling.html", [
-      [ "Linux and MacOS/X", "geogram_compiling.html#autotoc_md5", [
-        [ "Contributors / Maintainers", "geogram_compiling.html#autotoc_md4", null ],
-        [ "Default options", "geogram_compiling.html#autotoc_md6", null ],
-        [ "Installing (optional)", "geogram_compiling.html#autotoc_md7", null ],
-        [ "Fine tuning", "geogram_compiling.html#autotoc_md8", null ]
-      ] ],
-      [ "Windows", "geogram_compiling.html#autotoc_md9", [
-        [ "Default options", "geogram_compiling.html#autotoc_md10", null ],
-        [ "Installing", "geogram_compiling.html#autotoc_md11", null ],
-        [ "Fine tuning", "geogram_compiling.html#autotoc_md12", null ]
-      ] ],
-      [ "More tuning (for both Linux and Windows)", "geogram_compiling.html#autotoc_md13", null ],
-      [ "Emscripten", "geogram_compiling.html#autotoc_md14", [
-        [ "Compiling geogram for Emscripten", "geogram_compiling.html#autotoc_md15", null ],
-        [ "Creating a webpage around a program", "geogram_compiling.html#autotoc_md16", null ]
-      ] ],
-      [ "Generating the documentation", "geogram_compiling.html#autotoc_md17", [
-        [ "Linux and MacOS/X", "geogram_compiling.html#autotoc_md18", null ]
-      ] ]
-    ] ],
     [ "Design principles", "geogram_design.html", null ],
-    [ "Example programs", "geogram_examples.html", [
-      [ "Geogram sample programs", "geogram_examples.html#autotoc_md19", [
-        [ "vorpaview", "geogram_examples.html#autotoc_md20", null ],
-        [ "vorpastat", "geogram_examples.html#autotoc_md21", null ],
-        [ "vorpalite", "geogram_examples.html#autotoc_md22", null ],
-        [ "compute_delaunay", "geogram_examples.html#autotoc_md23", null ],
-        [ "compute_OTM", "geogram_examples.html#autotoc_md24", null ],
-        [ "compute_RVD", "geogram_examples.html#autotoc_md25", null ]
-      ] ]
-    ] ],
     [ "Geogram License", "geogram_license.html", [
-      [ "License", "geogram_license.html#autotoc_md26", null ],
-      [ "Bundled third-party software", "geogram_license.html#autotoc_md27", null ]
+      [ "License", "geogram_license.html#autotoc_md4", null ],
+      [ "Bundled third-party software", "geogram_license.html#autotoc_md5", null ]
     ] ],
     [ "Programmer's quick links", "geogram_programmer.html", [
-      [ "Quick links to main Geogram functions and classes", "geogram_programmer.html#autotoc_md28", null ],
-      [ "Quick links to main geogram internal classes", "geogram_programmer.html#autotoc_md29", null ]
+      [ "Quick links to main Geogram functions and classes", "geogram_programmer.html#autotoc_md6", null ],
+      [ "Quick links to main geogram internal classes", "geogram_programmer.html#autotoc_md7", null ]
     ] ],
     [ "Geogram Pluggable Software Modules", "geogram_PSM.html", [
-      [ "Pluggable Software Modules", "geogram_PSM.html#autotoc_md30", null ],
-      [ "List of PSMs", "geogram_PSM.html#autotoc_md31", [
-        [ "OpenNL", "geogram_PSM.html#autotoc_md32", null ],
-        [ "MultiPrecision", "geogram_PSM.html#autotoc_md33", null ],
-        [ "Predicates", "geogram_PSM.html#autotoc_md34", null ],
-        [ "Delaunay", "geogram_PSM.html#autotoc_md35", null ]
+      [ "Pluggable Software Modules", "geogram_PSM.html#autotoc_md8", null ],
+      [ "List of PSMs", "geogram_PSM.html#autotoc_md9", [
+        [ "OpenNL", "geogram_PSM.html#autotoc_md10", null ],
+        [ "MultiPrecision", "geogram_PSM.html#autotoc_md11", null ],
+        [ "Predicates", "geogram_PSM.html#autotoc_md12", null ],
+        [ "Delaunay", "geogram_PSM.html#autotoc_md13", null ]
       ] ],
-      [ "Syntax of a PSM file", "geogram_PSM.html#autotoc_md36", null ]
+      [ "Syntax of a PSM file", "geogram_PSM.html#autotoc_md14", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
@@ -133,13 +102,13 @@ var NAVTREEINDEX =
 "classGLUP_1_1Context.html#ae97ec164ab688568054d6650b6d58418",
 "command__line_8h.html#ad3b5f80592cbc1143b5a5fc2c9183810ab2ac9b3278ff63e62adeb4c1e4beb296",
 "functions_w.html",
-"index_8h_source.html",
-"mesh__intersection_8h.html#a5e9bd7ead4bc073fd16b04166b9f8d96",
-"nl_8h.html#a96c5904f4039ebf1ad839c384ad33b23",
-"numeric_8h.html#a4e8f0fdf5912c7363c25c04c19592f82",
-"string_8h.html#a26a502ae274f09bb1a9dbd2ff0530955",
-"structGEO_1_1MatrixM.html#ae91c9fbbfefb6789961f50c5d3c68c60",
-"structGLUP_1_1UniformState.html#aeda1d0f5b08e0fee19ff90db77d41cd9"
+"lua__io_8h.html#a758e8318ea1ec4f3763ddf64f88136bf",
+"mesh__manifold__harmonics_8h.html#a75e77c908117fe8f5771d8fb5909a2da",
+"nl_8h.html#ab7db7bdb99c7f9e983259797875ff3fc",
+"numeric_8h.html#aedf9787c2efc83f5169a8ada84c079c1",
+"string_8h.html#af0bc4020668f8b2dd38b30b04ba37272",
+"structGEO_1_1MatrixMixedConstrainedSolver.html#afa2d599ee088b3b69fa9957168c62cb7",
+"structNLBlas.html#aacc6ed440b0abd61b5845b0404689994"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

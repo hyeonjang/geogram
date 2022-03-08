@@ -94,6 +94,5 @@ var searchData=
   ['exploragram_5fapi_712',['EXPLORAGRAM_API',['../exploragram_2api_2defs_8h.html#ac0beed590f84f37053c9add1d43fb450',1,'defs.h']]],
   ['export_5fboundary_5fwith_5fuv_713',['export_boundary_with_uv',['../namespaceGEO.html#a9425f734b8088c3b7ec062bc940a97b8',1,'GEO']]],
   ['extension_714',['extension',['../classGEO_1_1FileSystem_1_1Node.html#a497951fbe5e5c1acc2c0b7f61a382ec7',1,'GEO::FileSystem::Node::extension()'],['../namespaceGEO_1_1FileSystem.html#ae3745e74a379a13299e8d11e2bec4c59',1,'GEO::FileSystem::extension()']]],
-  ['extension_5fis_5fsupported_715',['extension_is_supported',['../classGLUP_1_1Context.html#a88866f21e2c65228dd1aa3ca3925f037',1,'GLUP::Context']]],
-  ['example_20programs_716',['Example programs',['../geogram_examples.html',1,'']]]
+  ['extension_5fis_5fsupported_715',['extension_is_supported',['../classGLUP_1_1Context.html#a88866f21e2c65228dd1aa3ca3925f037',1,'GLUP::Context']]]
 ];
