@@ -87,13 +87,14 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="title">Geogram Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Geogram is a programming library of geometric algorithms. It includes a simple yet efficient <a class="el" href="classGEO_1_1Mesh.html" title="Represents a mesh.">Mesh</a> data structure (for surfacic and volumetric meshes), exact computer arithmetics (a-la Shewchuck, implemented in <a class="el" href="classGEO_1_1expansion.html" title="Represents numbers in arbitrary precision with a low-level API.">GEO::expansion</a>), a predicate code generator (<a class="el" href="namespaceGEO_1_1PCK.html" title="PCK (Predicate Construction Kit) implements a set of geometric predicates. PCK uses arithmetic filter...">PCK</a>: Predicate Construction Kit), standard geometric predicates (orient/insphere), <a class="el" href="classGEO_1_1Delaunay.html" title="Abstract interface for Delaunay triangulation in Nd.">Delaunay</a> triangulation, Voronoi diagram, spatial search data structures, spatial sorting) and less standard ones (more general geometric predicates, intersection between a Voronoi diagram and a triangular or tetrahedral mesh embedded in n dimensions). The latter is used by FWD/WarpDrive, the first algorithm that computes semi-discrete Optimal Transport in 3d that scales up to 1 million Dirac masses (see compute_OTM in <a class="el" href="geogram_examples.html">example programs </a>).</p>
+<div class="textblock"><p>Geogram is a programming library with geometric algorithms. It contains the main results in Geometry Processing from the former ALICE Inria project, that is, more than <a href="https://github.com/BrunoLevy/geogram/wiki/Publications">30 research articles</a> published in ACM SIGGRAPH, ACM Transactions on Graphics, Symposium on Geometry Processing and Eurographics. It was supported by two grants from the European Research Council (ERC): GOODSHAPE and VORPALINE.</p>
+<p>Geogram includes a simple yet efficient <a class="el" href="classGEO_1_1Mesh.html" title="Represents a mesh.">Mesh</a> data structure (for surfacic and volumetric meshes), exact computer arithmetics (a-la Shewchuck, implemented in <a class="el" href="classGEO_1_1expansion.html" title="Represents numbers in arbitrary precision with a low-level API.">GEO::expansion</a> ), a predicate code generator (<a class="el" href="namespaceGEO_1_1PCK.html" title="PCK (Predicate Construction Kit) implements a set of geometric predicates. PCK uses arithmetic filter...">PCK</a>: the Predicate Construction Kit), standard geometric predicates (orient/insphere), <a class="el" href="classGEO_1_1Delaunay.html" title="Abstract interface for Delaunay triangulation in Nd.">Delaunay</a> triangulation, Voronoi diagram, spatial search data structures, spatial sorting) and less standard ones (more general geometric predicates, intersection between a Voronoi diagram and a triangular or tetrahedral mesh embedded in n dimensions), and semi-discrete optimal transport.</p>
 <ul>
-<li><a href="https://gforge.inria.fr/frs/?group_id=5833">Download</a></li>
+<li><a href="https://github.com/BrunoLevy/geogram">Geogram website on github</a></li>
 <li><a href="http://homepages.loria.fr/BLevy/GEOGRAM/">Online demos</a></li>
-<li><a class="el" href="geogram_compiling.html">How to compile Geogram / How to generate the documentation </a></li>
-<li><a class="el" href="geogram_examples.html">Example programs </a></li>
-<li><a class="el" href="geogram_license.html">License and bundled third-party software </a></li>
+<li>How to compile Geogram: <a href="https://github.com/BrunoLevy/geogram/wiki/compiling_Linux">Linux</a> <a href="https://github.com/BrunoLevy/geogram/wiki/compiling_Windows">Windows</a> <a href="https://github.com/BrunoLevy/geogram/wiki/compiling_MacOS">Mac</a></li>
+<li><a href="https://github.com/BrunoLevy/geogram/LICENSE">License</a></li>
+<li><a href="https://github.com/BrunoLevy/geogram/wiki/ThirdParty">Bundled third-party libraries</a></li>
 <li><a class="el" href="geogram_design.html">Design principles </a></li>
 <li><a class="el" href="geogram_programmer.html">Programmer's quick links to main Geogram classes </a></li>
 <li><a class="el" href="geogram_PSM.html">Pluggable Software Modules (PSMs) </a> </li>
@@ -104,7 +105,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 8 2022 05:25:24 for Geogram by
+    <li class="footer">Generated on Tue Mar 8 2022 05:36:58 for Geogram by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
