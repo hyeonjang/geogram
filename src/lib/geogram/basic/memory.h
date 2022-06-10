@@ -512,7 +512,8 @@ namespace GEO {
              * \return A pointer to the initial element in the block of storage
              */
             pointer allocate(
-                size_type nb_elt, ::std::allocator<void>::const_pointer hint = nullptr
+                // size_type nb_elt, ::std::allocator<void>::const_pointer hint = nullptr
+                size_type nb_elt, void* hint = nullptr
             ) {
                 geo_argused(hint);
                 pointer result = static_cast<pointer>(
@@ -544,8 +545,8 @@ namespace GEO {
              * member allocate().
              */
             size_type max_size() const {
-                ::std::allocator<char> a;
-                return a.max_size() / sizeof(T);
+                ::std::allocator_traits<std::allocator<char>> a;
+                return a.max_size(std::allocator<char>()) / sizeof(T);
             }
 
             /**

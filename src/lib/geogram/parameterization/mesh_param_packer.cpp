@@ -346,7 +346,7 @@ namespace GEO {
 	{
 	    xatlas::SetAlloc(my_realloc);
 	    xatlas::PackOptions packerOptions;
-	    packerOptions.padding = 1;
+	    packerOptions.padding = 0;
 	    xatlas::PackCharts(atlas, packerOptions);
 
 	    double u_min = Numeric::max_float64();
